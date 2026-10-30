@@ -1,0 +1,10 @@
+name = "fixer-tg"
+main = "cloudflare-worker.js"
+compatibility_date = "2026-10-01"
+# только свой домен: адрес *.workers.dev не нужен и был бы ещё одной точкой входа
+workers_dev = false
+
+# Свой домен должен быть подключён к Cloudflare. *.workers.dev у многих провайдеров заблокирован.
+routes = [
+  { pattern = "tg.example.com", custom_domain = true },
+]

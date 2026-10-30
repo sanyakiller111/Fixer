@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Already asleep: the static pose from mascot.xml. No looping vector animation here on purpose:
+     an animated vector is re-rasterised on the CPU every frame; the idle motion is a cheap view transform. -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/mascot">
+    <target android:name="zzz">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="0" android:propertyName="strokeAlpha" android:valueFrom="1" android:valueTo="1" />
+        </aapt:attr>
+    </target>
+</animated-vector>

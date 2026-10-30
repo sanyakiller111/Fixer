@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Blue halo behind the button; its alpha/scale are animated in MainActivity. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <gradient
+        android:centerColor="#553B82F6"
+        android:endColor="#003B82F6"
+        android:gradientRadius="50%p"
+        android:startColor="#B03B82F6"
+        android:type="radial" />
+</shape>

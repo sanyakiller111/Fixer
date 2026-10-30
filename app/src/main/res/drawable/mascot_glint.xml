@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Awake pose plus one short glint across the shades; MainActivity replays it every few seconds while on. -->
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:drawable="@drawable/mascot">
+    <target android:name="zzz">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="0" android:propertyName="strokeAlpha" android:valueFrom="0" android:valueTo="0" />
+        </aapt:attr>
+    </target>
+    <target android:name="eyes">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="0" android:propertyName="strokeAlpha" android:valueFrom="0" android:valueTo="0" />
+        </aapt:attr>
+    </target>
+    <target android:name="shades">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="0" android:propertyName="translateY" android:valueFrom="0" android:valueTo="0" />
+        </aapt:attr>
+    </target>
+    <target android:name="flat">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="0" android:propertyName="strokeAlpha" android:valueFrom="0" android:valueTo="0" />
+        </aapt:attr>
+    </target>
+    <target android:name="smile">
+        <aapt:attr name="android:animation">
+            <objectAnimator android:duration="0" android:propertyName="strokeAlpha" android:valueFrom="1" android:valueTo="1" />
+        </aapt:attr>
+    </target>
+    <target android:name="glint">
+        <aapt:attr name="android:animation">
+            <set android:ordering="sequentially">
+                <objectAnimator android:duration="260" android:propertyName="strokeAlpha" android:valueFrom="0.25" android:valueTo="0.95" />
+                <objectAnimator android:duration="420" android:propertyName="strokeAlpha" android:valueFrom="0.95" android:valueTo="0.25" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

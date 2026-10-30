@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Fixer</string>
+    <string name="btn_on">ВКЛ</string>
+    <string name="btn_off">ВЫКЛ</string>
+    <string name="status_on">Работает: DNS через DoH</string>
+    <string name="notif_title">Fixer</string>
+    <string name="notif_text">Roblox и YouTube работают</string>
+    <string name="notif_stop">Выключить</string>
+    <string name="notif_channel">Статус Fixer</string>
+</resources>

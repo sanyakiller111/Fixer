@@ -1,0 +1,14 @@
+# Деплой автора Fixer: Worker «qrrqrq» на tg.teneighty.bet плюс файлы обновлений.
+# Для своего домена бери wrangler.toml. Выкладывать обновление — через publish-update.ps1.
+name = "qrrqrq"
+main = "cloudflare-worker.js"
+compatibility_date = "2026-10-01"
+workers_dev = false
+routes = [
+  { pattern = "tg.teneighty.bet", custom_domain = true },
+]
+
+# public/update/version.json и APK отдаются как статика, до кода Worker: такие запросы
+# бесплатны и не тратят дневной лимит Telegram
+[assets]
+directory = "./public"

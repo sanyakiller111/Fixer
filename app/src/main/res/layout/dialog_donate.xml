@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/card"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/unbounded_medium"
+        android:text="Поддержать Fixer"
+        android:textColor="@color/text_primary"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:lineSpacingExtra="2dp"
+        android:text="Fixer бесплатный и без рекламы. Собранные деньги пойдут на две вещи:"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Telegram без перебоев"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:lineSpacingExtra="2dp"
+        android:text="На бесплатном тарифе Cloudflare сервер для Telegram выдерживает 100 000 подключений в сутки, одних на всех пользователей. Платный тариф стоит 5 $ в месяц, и его лимита хватит всем."
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Fixer в Google Play"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:lineSpacingExtra="2dp"
+        android:text="Аккаунт разработчика стоит 25 $ один раз. Тогда Fixer будет ставиться и обновляться сам, без APK."
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/donateGo"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/btn_primary"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center"
+        android:text="Поддержать"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/donateLater"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/btn_ghost"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/inter_medium"
+        android:gravity="center"
+        android:text="Позже"
+        android:textColor="@color/text_secondary"
+        android:textSize="15sp" />
+</LinearLayout>

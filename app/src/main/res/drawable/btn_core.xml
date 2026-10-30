@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Round button; the stroke colour is switched to the accent in code when on. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
+    <solid android:color="#111113" />
+    <stroke
+        android:width="1.5dp"
+        android:color="@color/stroke" />
+</shape>

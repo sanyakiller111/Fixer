@@ -1,0 +1,17 @@
+<resources>
+    <color name="bg_dark">#0A0A0B</color>
+    <color name="surface">#141416</color>
+    <color name="stroke">#232327</color>
+    <color name="text_primary">#F2F2F3</color>
+    <color name="text_secondary">#8A8A90</color>
+    <color name="text_muted">#55555B</color>
+    <color name="dot_off">#3A3A40</color>
+    <color name="accent">#3B82F6</color>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:fontFamily">@font/inter_regular</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+    </style>
+</resources>

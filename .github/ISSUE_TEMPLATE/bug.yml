@@ -1,0 +1,44 @@
+name: Что-то не работает
+description: Roblox, YouTube или Telegram не открываются с Fixer
+labels: [баг]
+body:
+  - type: dropdown
+    id: service
+    attributes:
+      label: Что не работает
+      multiple: true
+      options: [Roblox, YouTube, Telegram, Само приложение]
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: Что происходит
+      description: Что видно на экране Fixer и в самом приложении. Скриншот приветствуется.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Телефон и Android
+      placeholder: Redmi Note 13, Android 15
+    validations:
+      required: true
+  - type: input
+    id: network
+    attributes:
+      label: Провайдер, регион и тип сети
+      placeholder: Ростелеком, Москва, Wi-Fi
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Версия Fixer
+      placeholder: "1.1"
+  - type: textarea
+    id: logs
+    attributes:
+      label: Лог (необязательно)
+      description: Вывод `adb logcat -s Fixer`
+      render: text

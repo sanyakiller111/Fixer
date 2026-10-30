@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Mascot in a 108dp adaptive icon, keeping its 1.31 aspect ratio. Launchers show the middle 72dp
+     (18..90); the drawing is sized so the mascot itself spans about that, as big as other apps'
+     icons. Round masks clip the hair tips and shoulders a little, the face stays whole. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/mascot_icon"
+    android:insetBottom="20dp"
+    android:insetLeft="12dp"
+    android:insetRight="12dp"
+    android:insetTop="24dp" />

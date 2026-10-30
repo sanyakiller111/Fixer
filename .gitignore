@@ -1,0 +1,34 @@
+# Gradle / Android
+.gradle/
+build/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+.idea/
+
+# Нативная сборка (результат копируется в app/src/main/jniLibs)
+native/build/
+
+# Готовые APK — публикуются в GitHub Releases, не в репозиторий
+dist/
+*.apk
+*.aab
+
+# Ключи подписи и секреты
+*.jks
+*.keystore
+keystore.properties
+
+# Cloudflare Wrangler
+worker/.wrangler/
+worker/node_modules/
+
+
+# ОС
+.DS_Store
+Thumbs.db
+
+# Файлы обновлений: собираются worker/publish-update.ps1
+worker/public/
