@@ -56,6 +56,19 @@ phone's traffic is untouched.
 The APK appears in `app/build/outputs/apk/release/`. You need JDK 17 and Android SDK 34.
 Native libraries are already in the repository, rebuild them only if you change `native/`.
 
+## Support the project
+
+Fixer is free and has no ads. Donations go to four things:
+
+| What | Cost | Why |
+|---|---|---|
+| Discord server | 450 RUB / month | Russian ISPs block Discord by site name and on-phone DPI bypass (byedpi) does not get through, tested. It needs our own proxy server abroad. **Not running yet**: donations fund the launch and the monthly bill |
+| Instagram server | 450 RUB / month | Instagram and Meta sites are blocked the same way and need a separate proxy server. **Not running yet** |
+| Cloudflare Workers Paid | 5 USD / month | The free tier allows 100,000 Telegram connections a day for all users combined |
+| Google Play developer account | 25 USD once | Install and update from Google Play instead of APK |
+
+[Support via CloudTips](https://pay.cloudtips.ru/p/03c080d5). The same button is in the app.
+
 ## Privacy
 
 Fixer collects no statistics and has no server of its own. DNS queries of the chosen

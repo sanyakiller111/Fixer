@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:scrollbars="none">
+
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/card"
@@ -20,7 +26,43 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="6dp"
         android:lineSpacingExtra="2dp"
-        android:text="Fixer бесплатный и без рекламы. Собранные деньги пойдут на две вещи:"
+        android:text="Fixer бесплатный и без рекламы. Собранные деньги пойдут на четыре вещи:"
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Сервер для Discord, 450 ₽ в месяц"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:lineSpacingExtra="2dp"
+        android:text="Discord режется по имени сайта, и обход на самом телефоне его не пробивает. Нужен свой прокси-сервер за границей. Он ещё не запущен: деньги пойдут на запуск и ежемесячную оплату."
+        android:textColor="@color/text_secondary"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/inter_medium"
+        android:text="Сервер для Instagram, 450 ₽ в месяц"
+        android:textColor="@color/text_primary"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:lineSpacingExtra="2dp"
+        android:text="С Instagram и сайтами Meta то же самое: нужен отдельный сервер. Он тоже ещё не запущен."
         android:textColor="@color/text_secondary"
         android:textSize="14sp" />
 
@@ -88,3 +130,4 @@
         android:textColor="@color/text_secondary"
         android:textSize="15sp" />
 </LinearLayout>
+</ScrollView>
